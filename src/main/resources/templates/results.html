@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Vote Confirmation</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="card confirmation-card">
+    <h2 class="card-heading">Vote Confirmation</h2>
+    <p class="muted-text center-text">Thank you for voting!</p>
+    <p class="muted-text center-text">Your vote has been successfully submitted.</p>
+    <p class="center-text">
+        <a th:href="@{/polls}" class="vote-link">Back to Poll List</a>
+    </p>
+</div>
+</body>
+</html>

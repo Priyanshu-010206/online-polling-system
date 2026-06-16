@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f3f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.page-title {
+    text-align: center;
+    font-weight: normal;
+    padding: 30px 0 10px;
+    margin: 0;
+}
+
+.top-line {
+    border: none;
+    border-top: 1px solid #ddd;
+    width: 90%;
+    margin: 0 auto 30px;
+}
+
+.card {
+    background: #ffffff;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    padding: 30px 40px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+}
+
+.form-card {
+    max-width: 500px;
+}
+
+.card-heading {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.nav-links {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.nav-links a {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.muted-text {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 4px;
+    margin-top: 12px;
+}
+
+input[type="text"],
+textarea {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.btn-green {
+    margin-top: 24px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 12px 0;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-green:hover {
+    background-color: #43a047;
+}
+
+.poll-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 14px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.poll-row:last-child {
+    border-bottom: none;
+}
+
+.poll-title {
+    color: #2e7d32;
+    font-weight: 600;
+    margin: 0 0 6px;
+}
+
+.poll-desc {
+    font-size: 13px;
+    color: #444;
+    margin: 0;
+}
+
+.vote-link {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-left: 20px;
+}
+
+.vote-link:hover {
+    text-decoration: underline;
+}
+
+.option-row {
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.option-row input[type="radio"] {
+    margin-right: 8px;
+}
+
+.result-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+.confirmation-card {
+    text-align: center;
+}
+
+.center-text {
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Polling System</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<h1 class="page-title">Online Polling System</h1>
+<hr class="top-line"/>
+
+<div class="card">
+    <h2 class="card-heading">Welcome to the Online Polling System</h2>
+    <p class="nav-links">
+        <a th:href="@{/polls/new}">Create Poll</a>
+        <span> | </span>
+        <a th:href="@{/polls}">Poll List</a>
+    </p>
+    <p class="muted-text">
+        Manage and participate in polls with ease. Use the navigation links to create new polls or view and vote in existing ones.
+    </p>
+</div>
+</body>
+</html>
